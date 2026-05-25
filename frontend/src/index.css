@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+
+  --color-neon-pink: #ff006e;
+  --color-neon-cyan: #00f0ff;
+  --color-neon-purple: #b829ff;
+  --color-bg-deep: #0a0a1f;
+  --color-bg-panel: #14142b;
+  --color-bg-elevated: #1e1e3f;
+}
