@@ -13,6 +13,8 @@
 [![Tailwind](https://img.shields.io/badge/Tailwind_4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
+### [🚀 Live Demo →](https://talkbox-78j.pages.dev)
+
 </div>
 
 ![Talkbox chat view](docs/chat.png)
