@@ -57,15 +57,6 @@ Backend runs on `:3000`, frontend on `:5173`. Tests: `pnpm test` inside `backend
 | `PORT` | backend | HTTP port (default `3000`) |
 | `VITE_API_URL` | frontend | API base URL, e.g. `http://localhost:3000/api` |
 
-## Notes
-
-Trade-offs I made on purpose, and what I would change next:
-
-- Tokens are stored in `localStorage`. A short-lived access token plus an httpOnly refresh cookie would be safer against XSS.
-- Presence is an in-memory map, so it does not survive a restart and does not scale past one server instance. The Socket.io Redis adapter would fix that.
-- No message pagination — channel history loads in full when you open a channel.
-- Tests cover auth and channel access control, not every endpoint.
-
 ## License
 
 [MIT](./LICENSE)
